@@ -1,0 +1,20 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+#valk {
+  min-height: 100%;
+  width: auto;
+}
+
+input, label {
+  display: block;
+}
