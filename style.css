@@ -2,12 +2,19 @@ html, body {
   padding: 0;
   margin: 0;
   height: 100vh;
+  font-family: CallingCode;
+}
+
+@font-face {
+  font-family: CallingCode;
+  src: url("fonts/CallingCode.ttf"); 
 }
 
 .main {
   display: flex;
   flex-direction: row;
   height: 100%;
+  background-color: #f5f5f5;
 }
 
 #valk {
@@ -15,16 +22,79 @@ html, body {
   width: auto;
 }
 
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
 form {
   display: flex;
   flex-direction: column;
+  font-family: CallingCode;
+  text-transform: uppercase;
+  color: white;
+  gap: 30px;
 }
 
 .form-row {
   display: flex;
   flex-direction: row;
+  gap: 60px;
+  font-size: 0.85em;
 }
 
 label, input {
   display: block;
+}
+
+.form-input {
+  background-color: rgb(22, 22, 22);
+  padding: 20px 40px 40px;
+  display: flex;
+  flex: 0 1 auto;
+  max-width: 900px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#join {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+button {
+  appearance: none;
+  padding: 15px 30px;
+  margin-left: 40px;
+  border: none;
+  font-size: 1em;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  font-family: CallingCode;
+  text-transform: uppercase;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  background: white;
+  border: 1px solid rgb(22, 22, 22);
+  color: black;
+}
+
+#login {
+  margin: -25px 0 0 40px;
+}
+
+.headline {
+  margin: -10px 0 -10px 40px;
+  font-size: 1.5em;
+  width: 75%;
+}
+
+a {
+  color: black;
 }
