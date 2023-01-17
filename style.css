@@ -15,6 +15,16 @@ html, body {
   width: auto;
 }
 
-input, label {
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+label, input {
   display: block;
 }
