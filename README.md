@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/65985104/213063346-57b89926-9c2e-4f3d-bd98-08ab714bb748.png)
+
 This is a simple sign-up form modeled after the 100 Thieves website; it's purely frontend as I still haven't learned much about the backend yet. This
 project was kind of meant to be a sequel of sorts to the 100 Thieves landing page I created as esports is one of my big interests and I can't help but
 model several of my projects after it.
